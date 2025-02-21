@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Cam1
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,6 +398,8 @@ MonoBehaviour:
   tamCasilla: 1
   desplazamientoY: 0.5
   centroTablero: {x: -5.5, y: 0, z: -7.5}
+  desplazamientoAgarra: 0.1
+  desplazamientoMuertas: 0.3
   prefabsFichas:
   - {fileID: 6135531579756795601, guid: 4a85d9b69d6e79f43b9fab7be5be4f04, type: 3}
   - {fileID: 8078690906072120781, guid: e17841b381f7f814294fd2c9530cd15e, type: 3}
@@ -439,7 +441,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 463cfc0a1bd39dc49a217c5e35c98a43, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
