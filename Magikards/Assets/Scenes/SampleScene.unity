@@ -403,7 +403,7 @@ MonoBehaviour:
   prefabsFichas:
   - {fileID: 6135531579756795601, guid: 4a85d9b69d6e79f43b9fab7be5be4f04, type: 3}
   - {fileID: 8078690906072120781, guid: e17841b381f7f814294fd2c9530cd15e, type: 3}
-  - {fileID: 1830372857638937220, guid: fb2f0f74f784830438ab827cd23d9ef9, type: 3}
+  - {fileID: 844070459757933334, guid: fb2f0f74f784830438ab827cd23d9ef9, type: 3}
   - {fileID: 9219942276761456992, guid: 957b4fa049da2da41869de92155f6053, type: 3}
   materialesEquipos:
   - {fileID: 2100000, guid: def82094e86833a4f94441bb3b95c2ff, type: 2}

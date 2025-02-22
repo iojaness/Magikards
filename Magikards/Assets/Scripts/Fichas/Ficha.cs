@@ -13,7 +13,6 @@ public class Ficha : MonoBehaviour {
     public int equipo;
     public int actualX;
     public int actualY;
-    public int vida;
     public int ataque;
     public TipoFicha tipo;
 
@@ -39,7 +38,16 @@ public class Ficha : MonoBehaviour {
     enemigos.Add(new Vector2Int(4, 4));
 
     return enemigos;
-}
+    }
+
+    public int vida {
+        get { return _vida; }
+        set {
+            _vida = value;
+            GetComponentInChildren<FichaUI>()?.ActualizarUI();
+        }
+    }
+    private int _vida;
 
 
     public virtual void Ubicar(Vector3 pos, bool forzado = false){
